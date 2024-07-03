@@ -22,8 +22,24 @@ This repository contains tools and scripts to measure the power utilization of a
 
 ## Setup
 1. Clone this repository.
-2. Install the required dependencies.
-3. Configure the system knobs.
+2. git clone https://github.com/yourusername/power-measurement-tool.git
+cd power-measurement-tool
+3. Install the required dependencies.
+If you are using pipenv
+4. pip install pipenv
+pipenv install
+If you are using pip with a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+6. Configure the system knobs.
+7. {
+    "CPU": "performance",
+    "Memory": "balanced",
+    "NIC": "high_performance",
+    "TDP": "standard"
+}
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
