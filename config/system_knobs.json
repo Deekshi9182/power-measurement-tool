@@ -1,0 +1,6 @@
+{
+    "CPU": "performance",
+    "Memory": "balanced",
+    "NIC": "high_performance",
+    "TDP": "standard"
+}
